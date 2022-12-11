@@ -1,0 +1,78 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,400;1,500&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Zen+Dots&display=swap'); 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ background-color: rgb(44, 41, 41);
+ display: flex;
+ justify-content: center;
+margin-top: 200px;
+color: white;
+font-family: 'Poppins', sans-serif;
+
+}
+.main{
+    height: 380px;
+    width: 930px;
+    background-color: white;
+   
+}
+
+.car{
+    margin-top: 5px;
+    margin-left: 13px;
+}
+.section1{
+    float: left;
+    width: 300px;
+    padding: 10px;
+     height: 350px;
+    background-color: rgb(204, 149, 47); 
+    border-radius: 12px 0 0px 12px;
+    margin-top: 15px;
+    margin-left: 13px;
+   
+}
+.section2{
+    float: left;
+    width: 300px;
+    padding: 10px;
+    height: 350px;
+    background-color: #015964;
+    margin-top: 15px;
+
+}
+.section3{
+    float: left;
+    width: 300px;
+    padding: 10px;
+    height: 350px;
+    background-color: #1b4d3e;
+    border-radius: 0px 12px 12px 0px;
+    margin-top: 15px;
+}
+h1{
+   font-weight: 200px;
+   margin-left: 8px;
+   margin-top: 80px;
+}
+p{
+    font-size: 12px;
+    margin-left: 8px;
+   margin-top: 20px;
+}
+
+input[type="text"]{
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    margin-left: 8px;
+    margin-top: 40px;
+}
+::placeholder{
+    text-align: center;
+}
